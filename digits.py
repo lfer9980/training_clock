@@ -126,7 +126,6 @@ class Digits(GeomBase):
                                     self.digits_segment_g,
                                     self.digits_segment_b,
                                     self.digits_segment_c,
-                                    self.digits_segment_d,
                                     ],
                         )
 
@@ -155,7 +154,6 @@ class Digits(GeomBase):
     def getter(self):
         return Compound(built_from=[self.digits_segment_a,
                                     self.digits_segment_b,
-                                    self.digits_segment_g,
                                     self.digits_segment_c,
                                     ],
                         )

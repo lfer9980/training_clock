@@ -7,8 +7,8 @@ from digital_clock import DigitalClock
 
 class Assembly(GeomBase):
     # Inputs
-    minutes: int = Input(60)
-    hours: int = Input(12)
+    minutes: int = Input(59)
+    hours: int = Input(11)
 
     # final parts
     analog: Part = Part(derived)
